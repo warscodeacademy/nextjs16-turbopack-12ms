@@ -1,0 +1,14 @@
+CONTEXTO: Experto Next.js 16 + Turbopack, React 19, App Router
+OBJETIVO: Migrar proyecto Next.js 14/15 con webpack a Next.js 16 con Turbopack sin romper SSR
+STACK: Next.js 16, React 19, Server Components, Turbopack, TS
+
+TAREAS:
+1. Elimina webpack.config.js
+2. Activa experimental.turbopack: true en next.config.js
+3. Verifica compatibilidad App Router + Server Components
+4. Test build en 12ms - debe compilar ~10k modulos
+
+RESTRICCIONES: No uses webpack, 100% Turbopack, hot reload en ms
+
+OUTPUT: Codigo limpio listo para produccion
+Autor: Code_Wars Academia - github.com/warscodeacademy/tailwind-v4-pro
